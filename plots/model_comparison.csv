@@ -1,0 +1,3 @@
+Model,Accuracy,F1 (Fake),ROC-AUC
+Multi-Input (BERT+Meta),1.0,1.0,1.0
+Baseline LogReg (Meta only),0.9996659242761693,0.9996804771541166,1.0
