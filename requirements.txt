@@ -1,0 +1,45 @@
+# ============================================================
+# Fake News Detection System — requirements.txt
+# Target: Python 3.10+   (tested compatible: 3.10 / 3.11 / 3.12)
+# Install with:  pip install -r requirements.txt
+# ============================================================
+
+# ---------- Core ----------
+numpy==1.26.4
+pandas==2.2.2
+
+# ---------- NLP & Embeddings ----------
+torch==2.3.1
+transformers==4.42.4
+tokenizers==0.19.1
+huggingface-hub==0.23.4
+
+# ---------- Classical ML ----------
+scikit-learn==1.5.1
+scipy==1.13.1
+
+# ---------- Explainability ----------
+shap==0.45.1
+lime==0.2.0.1
+
+# ---------- Visualization ----------
+matplotlib==3.9.1
+seaborn==0.13.2
+plotly==5.22.0
+wordcloud==1.9.3
+
+# ---------- Deployment ----------
+streamlit==1.36.0
+
+# ---------- Utilities ----------
+tqdm==4.66.4
+joblib==1.4.2
+
+# ---------- Notebook (for EDA.ipynb) ----------
+jupyter==1.0.0
+ipykernel==6.29.5
+
+# ---------- Notes ----------
+# `re` and `string` are part of the Python standard library — no install needed.
+# If you have a CUDA GPU, install the matching CUDA build of torch instead, e.g.:
+#   pip install torch==2.3.1 --index-url https://download.pytorch.org/whl/cu121
