@@ -7,6 +7,18 @@ and heuristic **metadata signals**, then explains every decision using
 
 ---
 
+## 🔗 Run on Google Colab
+
+You can run and explore this project directly in Google Colab — no
+local setup required:
+
+👉 **[Open in Google Colab](https://colab.research.google.com/drive/1OyXYZVtj8ZdA7gRK-uYZbiXu1ar2bCYt?usp=sharing)**
+
+> Tip: Switch the runtime to **GPU** (`Runtime → Change runtime type → GPU`)
+> for much faster BERT embedding extraction and training.
+
+---
+
 ## 📐 Architecture
 
 ```
@@ -101,6 +113,10 @@ pip install -r requirements.txt
 
 > First run downloads `bert-base-uncased` (~420 MB) from HuggingFace
 > and caches it locally. Subsequent runs are offline.
+
+> Prefer a zero-install option? Use the
+> [Google Colab notebook](https://colab.research.google.com/drive/1OyXYZVtj8ZdA7gRK-uYZbiXu1ar2bCYt?usp=sharing)
+> instead — everything runs in the browser.
 
 ---
 
